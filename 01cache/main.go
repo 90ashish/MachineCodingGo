@@ -3,6 +3,7 @@ package main
 import (
 	basic "cache/Basic"
 	moderate "cache/moderate"
+	advance "cache/advance"
 	"fmt"
 )
 
@@ -12,7 +13,11 @@ func main(){
 	// basic
 	basic.BasicRedisCache()
 
-	// Moderate 
+	//Moderate 
 	moderate.ModerateLRUCache()
+
+	// Advanced
+	advance.AdvanceLFUCache()
+
 }
 
