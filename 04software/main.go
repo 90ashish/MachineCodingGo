@@ -1,11 +1,15 @@
 package main
 
 import (
-	trello "software/TaskMngmt"
+	moderate "software/TaskMngmt"
+	easy "software/ExpenseMngmt"
 )
 
 func main() {
 
-	// Moderate
-	trello.Trello()
+	// easy
+	easy.Splitwise()
+
+	//Moderate
+	moderate.Trello()
 }
